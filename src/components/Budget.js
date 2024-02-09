@@ -7,6 +7,10 @@ const Budget = () => {
     const handleBudgetChange = (event) => {
         setNewBudget(event.target.value);
     }
+    const maxValue = "20000";
+        if(budget > maxValue) {
+            alert("The budget value cannot exceed 20,000")
+        }
     return (
 <div className='alert alert-secondary'>
 <span>Budget: £</span>
