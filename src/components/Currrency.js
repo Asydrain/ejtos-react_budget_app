@@ -11,7 +11,8 @@ const Currency = (props) => {
                         <option value="$ Dollar" name="dollar">$ Dollar</option>
                         <option value="£ Pound" name="pound">£ Pound</option>
                         <option value="€ Euro" name="euro">€ Euro</option>
-                        <option value="U+20B9 Ruppee" name="ruppee">U+20B9 Ruppee</option>`
+                        <option value="╣ Ruppee" name="ruppee">╣ Ruppee</option>
+                        <option value="U+20B9 Ruppee" name="ruppee2">U+20B9 Ruppee</option>
                   </select>
 
                 </div>
