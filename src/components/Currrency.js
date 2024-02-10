@@ -15,9 +15,6 @@ const Currency = (props) => {
                   </select>
 
                 </div>
-                </div>
-
-        </div>
     );
 };
 
