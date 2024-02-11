@@ -22,14 +22,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.container {
-    color: lightgreen;
+.custom-select {
+    display: inline-block;
+    position: relative;
+    size: 50px;
+    width: fit-content;
+    border-color: transparent;
+    color: rgb(120, 202, 120);
+    font-style: bold;
 }
 
 @keyframes App-logo-spin {

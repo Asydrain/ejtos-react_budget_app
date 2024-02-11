@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.custom-select label {
+    display: inline-block;
+    position: relative;
+    size: 100px;
+}

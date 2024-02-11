@@ -8,13 +8,13 @@ const Currency = () => {
         setNewCurrency(event.target.value);
     }
     return (
-        <div class="custom-select">
-            <label id="currencyLabel">Currency {newCurrency}</label>
-                  <select id="currencyDropdown" onChange={updateLabel}>
-                        <option value="$ Dollar" name="dollar">$ Dollar</option>
-                        <option value="£ Pound" name="pound">£ Pound</option>
-                        <option value="€ Euro" name="euro">€ Euro</option>
-                        <option value="₹ Ruppee" name="ruppee">₹ Ruppee</option>
+        <div className="input-group-text" style={{width: "fit-content", background: "rgb(120, 202, 120)", color: "white"}}>
+            <label className="custom-select" id="currencyLabel" htmlFor="inputGroupSelect03">Currency </label>
+                  <select className="custom-select" name="currencyDropdown" id="inputGroupSelect03" style={{background: "rgb(120, 202, 120)", color:"white", border: "transparent"}} onChange={updateLabel}>
+                        <option style={{background: "rgb(120, 202, 120)", color: "black"}} value="$" name="dollar">$ Dollar</option>
+                        <option style={{background: "rgb(120, 202, 120)", color: "black"}} value="£" name="pound" selected>£ Pound</option>
+                        <option style={{background: "rgb(120, 202, 120)", color: "black"}} value="€" name="euro">€ Euro</option>
+                        <option style={{background: "rgb(120, 202, 120)", color: "black"}} value="₹" name="ruppee">₹ Ruppee</option>
                   </select>
 
         </div>
